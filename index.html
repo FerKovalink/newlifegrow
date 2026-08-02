@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="es">
+<html lang="es-AR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="New Life Grow & Garden. Insumos para cultivo indoor, asesoramiento personalizado y envíos a todo el país."
+      content="New Life Grow &amp; Garden. Insumos para cultivo indoor, asesoramiento personalizado y envíos a todo el país."
     />
     <meta
       name="keywords"
@@ -13,15 +13,42 @@
     />
     <meta name="author" content="Kova-Link" />
     <meta name="theme-color" content="#0b1710" />
-    <meta property="og:title" content="New Life — Grow & Garden" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://newlifegrowshop.netlify.app/" />
+    <meta property="og:title" content="New Life — Grow &amp; Garden" />
     <meta
       property="og:description"
       content="Todo lo que tu cultivo necesita, con asesoramiento de verdad."
     />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="assets/hero.webp" />
-    <title>New Life | Grow & Garden</title>
+    <meta property="og:url" content="https://newlifegrowshop.netlify.app/" />
+    <meta property="og:site_name" content="New Life Grow &amp; Garden" />
+    <meta property="og:locale" content="es_AR" />
+    <meta
+      property="og:image"
+      content="https://newlifegrowshop.netlify.app/assets/og-new-life.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="New Life Grow &amp; Garden, equipamiento y asesoramiento para cultivo"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="New Life — Grow &amp; Garden" />
+    <meta
+      name="twitter:description"
+      content="Todo lo que tu cultivo necesita, con asesoramiento de verdad."
+    />
+    <meta
+      name="twitter:image"
+      content="https://newlifegrowshop.netlify.app/assets/og-new-life.jpg"
+    />
+    <title>New Life | Grow &amp; Garden</title>
     <link rel="icon" href="assets/logo.png" type="image/png" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,6 +56,54 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag("consent", "default", {
+        analytics_storage: "denied",
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        wait_for_update: 500,
+      });
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://newlifegrowshop.netlify.app/#organization",
+            "name": "New Life Grow & Garden",
+            "url": "https://newlifegrowshop.netlify.app/",
+            "logo": "https://newlifegrowshop.netlify.app/assets/logo.png",
+            "description": "Insumos para cultivo indoor, asesoramiento personalizado y envíos a todo el país.",
+            "telephone": "+54 9 11 2682-8373",
+            "areaServed": "AR",
+            "sameAs": ["https://www.instagram.com/newlife.grow.garden/"],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+54 9 11 2682-8373",
+              "contactType": "customer service",
+              "areaServed": "AR",
+              "availableLanguage": "Spanish"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://newlifegrowshop.netlify.app/#website",
+            "url": "https://newlifegrowshop.netlify.app/",
+            "name": "New Life Grow & Garden",
+            "inLanguage": "es-AR",
+            "publisher": {
+              "@id": "https://newlifegrowshop.netlify.app/#organization"
+            }
+          }
+        ]
+      }
+    </script>
     <script src="script.js" type="module"></script>
   </head>
 
@@ -58,7 +133,12 @@
           <span></span>
         </button>
 
-        <nav class="main-nav" id="main-nav" aria-label="Navegación principal" data-menu>
+        <nav
+          class="main-nav"
+          id="main-nav"
+          aria-label="Navegación principal"
+          data-menu
+        >
           <a href="#productos">Productos</a>
           <a href="#reprocann">REPROCANN</a>
           <a href="#nosotros">Nosotros</a>
@@ -83,8 +163,8 @@
             <p class="eyebrow"><span></span> Cultivá tu próxima gran idea</p>
             <h1>Tu cultivo.<br /><em>Otra vida.</em></h1>
             <p class="hero-lead">
-              Equipamiento, insumos y asesoramiento para que cada etapa de tu cultivo
-              tenga todo lo que necesita.
+              Equipamiento, insumos y asesoramiento para que cada etapa de tu
+              cultivo tenga todo lo que necesita.
             </p>
             <div class="hero-actions">
               <a class="button button-primary" href="#productos">
@@ -100,20 +180,20 @@
                 Ver Instagram
               </a>
             </div>
-            <div class="hero-proof" aria-label="Beneficios">
-              <div>
+            <ul class="hero-proof">
+              <li>
                 <strong>01</strong>
                 <span>Asesoramiento<br />personalizado</span>
-              </div>
-              <div>
+              </li>
+              <li>
                 <strong>02</strong>
                 <span>Envíos a<br />todo el país</span>
-              </div>
-              <div>
+              </li>
+              <li>
                 <strong>03</strong>
                 <span>Productos<br />seleccionados</span>
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
 
           <div class="hero-visual" data-reveal>
@@ -133,14 +213,10 @@
         </div>
         <div class="hero-ticker" aria-hidden="true">
           <div>
-            <span>INDOOR</span><i>✳</i>
-            <span>ILUMINACIÓN</span><i>✳</i>
-            <span>SUSTRATOS</span><i>✳</i>
-            <span>NUTRICIÓN</span><i>✳</i>
-            <span>ASESORAMIENTO</span><i>✳</i>
-            <span>INDOOR</span><i>✳</i>
-            <span>ILUMINACIÓN</span><i>✳</i>
-            <span>SUSTRATOS</span><i>✳</i>
+            <span>INDOOR</span><i>✳</i> <span>ILUMINACIÓN</span><i>✳</i>
+            <span>SUSTRATOS</span><i>✳</i> <span>NUTRICIÓN</span><i>✳</i>
+            <span>ASESORAMIENTO</span><i>✳</i> <span>INDOOR</span><i>✳</i>
+            <span>ILUMINACIÓN</span><i>✳</i> <span>SUSTRATOS</span><i>✳</i>
           </div>
         </div>
       </section>
@@ -164,7 +240,9 @@
                 <span class="product-number">01</span>
                 <p class="product-type">Estructura</p>
                 <h3>Carpas<br />indoor</h3>
-                <p>Espacios controlados para un cultivo ordenado y eficiente.</p>
+                <p>
+                  Espacios controlados para un cultivo ordenado y eficiente.
+                </p>
                 <a
                   href="https://www.instagram.com/newlife.grow.garden/"
                   target="_blank"
@@ -177,6 +255,8 @@
                 src="assets/products/indoor.webp"
                 alt="Carpa para cultivo indoor"
                 loading="lazy"
+                width="192"
+                height="192"
               />
             </article>
 
@@ -186,6 +266,8 @@
                 src="assets/products/led.webp"
                 alt="Panel de iluminación LED"
                 loading="lazy"
+                width="500"
+                height="500"
               />
               <div class="product-copy">
                 <p class="product-type">Iluminación</p>
@@ -207,6 +289,8 @@
                 src="assets/products/grower.webp"
                 alt="Bolsa de sustrato para cultivo"
                 loading="lazy"
+                width="192"
+                height="247"
               />
               <div class="product-copy">
                 <p class="product-type">Medio de cultivo</p>
@@ -228,11 +312,15 @@
                 src="assets/products/ferti.webp"
                 alt="Línea de fertilizantes para cultivo"
                 loading="lazy"
+                width="638"
+                height="391"
               />
               <div class="product-copy">
                 <p class="product-type">Nutrición</p>
                 <h3>Fertilizantes</h3>
-                <p>Soluciones para crecimiento, floración y cuidado integral.</p>
+                <p>
+                  Soluciones para crecimiento, floración y cuidado integral.
+                </p>
                 <a
                   href="https://www.instagram.com/newlife.grow.garden/"
                   target="_blank"
@@ -249,11 +337,15 @@
                 src="assets/products/conurbano.webp"
                 alt="Logotipo de Conurbano Seeds"
                 loading="lazy"
+                width="500"
+                height="500"
               />
               <div class="product-copy">
                 <p class="product-type">Genética</p>
                 <h3>Semillas</h3>
-                <p>Consultá el catálogo disponible y elegí con asesoramiento.</p>
+                <p>
+                  Consultá el catálogo disponible y elegí con asesoramiento.
+                </p>
                 <a
                   href="https://www.instagram.com/newlife.grow.garden/"
                   target="_blank"
@@ -275,6 +367,8 @@
                 src="assets/reprocann.webp"
                 alt="Gráfica informativa sobre REPROCANN"
                 loading="lazy"
+                width="940"
+                height="788"
               />
             </div>
             <span class="floating-label">Acompañamiento<br />paso a paso</span>
@@ -334,13 +428,13 @@
           </div>
           <div class="about-copy" data-reveal>
             <p>
-              En New Life seleccionamos productos que usaríamos en nuestros propios
-              proyectos. Queremos que compres lo que realmente necesitás y entiendas
-              cómo aprovecharlo.
+              En New Life seleccionamos productos que usaríamos en nuestros
+              propios proyectos. Queremos que compres lo que realmente necesitás
+              y entiendas cómo aprovecharlo.
             </p>
             <p>
-              Desde tu primer indoor hasta una instalación más completa, estamos para
-              responder dudas, comparar opciones y ayudarte a decidir.
+              Desde tu primer indoor hasta una instalación más completa, estamos
+              para responder dudas, comparar opciones y ayudarte a decidir.
             </p>
             <a
               class="text-link text-link-dark"
@@ -358,19 +452,28 @@
             <span class="benefit-icon">↗</span>
             <p class="product-type">Logística</p>
             <h3>Envíos a todo el país</h3>
-            <p>Empaquetamos cada pedido con cuidado y despachamos por Correo Argentino.</p>
+            <p>
+              Empaquetamos cada pedido con cuidado y despachamos por Correo
+              Argentino.
+            </p>
           </article>
           <article>
             <span class="benefit-icon">$</span>
             <p class="product-type">Flexibilidad</p>
             <h3>Distintos medios de pago</h3>
-            <p>Consultanos por las opciones y promociones disponibles al momento de comprar.</p>
+            <p>
+              Consultanos por las opciones y promociones disponibles al momento
+              de comprar.
+            </p>
           </article>
           <article>
             <span class="benefit-icon">✳</span>
             <p class="product-type">Experiencia</p>
             <h3>Asesoramiento real</h3>
-            <p>Recomendaciones claras para proyectos indoor y outdoor de distintas escalas.</p>
+            <p>
+              Recomendaciones claras para proyectos indoor y outdoor de
+              distintas escalas.
+            </p>
           </article>
         </div>
       </section>
@@ -384,7 +487,11 @@
             </div>
             <div class="catalog-intro">
               <p>Aceites, cremas y productos de cuidado personal.</p>
-              <button class="text-link text-link-dark" type="button" data-open-catalog>
+              <button
+                class="text-link text-link-dark"
+                type="button"
+                data-open-catalog
+              >
                 Ver catálogo completo <span aria-hidden="true">↗</span>
               </button>
             </div>
@@ -397,6 +504,8 @@
                 src="assets/products/aceite.webp"
                 alt="Aceite Cannabian"
                 loading="lazy"
+                width="430"
+                height="580"
               />
               <div>
                 <p class="product-type">Cannabian</p>
@@ -410,6 +519,8 @@
                 src="assets/products/crema.webp"
                 alt="Crema Cannabian"
                 loading="lazy"
+                width="467"
+                height="534"
               />
               <div>
                 <p class="product-type">Cannabian</p>
@@ -423,6 +534,8 @@
                 src="assets/products/shampoo.webp"
                 alt="Shampoo Cannabian"
                 loading="lazy"
+                width="408"
+                height="612"
               />
               <div>
                 <p class="product-type">Cannabian</p>
@@ -438,12 +551,101 @@
         <div class="container">
           <p class="brands-title">Marcas que nos acompañan</p>
           <div class="brand-grid" data-reveal>
-            <img src="assets/brands/cannabian.webp" alt="Cannabian" loading="lazy" />
-            <img src="assets/brands/topcop.webp" alt="Top Crop" loading="lazy" />
-            <img src="assets/brands/growers.webp" alt="Growers" loading="lazy" />
-            <img src="assets/brands/nostress.webp" alt="No Stress" loading="lazy" />
-            <img src="assets/brands/ocb.webp" alt="OCB" loading="lazy" />
-            <img src="assets/brands/vamp.webp" alt="Vamp" loading="lazy" />
+            <img
+              src="assets/brands/cannabian.webp"
+              alt="Cannabian"
+              loading="lazy"
+              width="380"
+              height="220"
+            />
+            <img
+              src="assets/brands/topcop.webp"
+              alt="Top Crop"
+              loading="lazy"
+              width="343"
+              height="220"
+            />
+            <img
+              src="assets/brands/growers.webp"
+              alt="Growers"
+              loading="lazy"
+              width="420"
+              height="211"
+            />
+            <img
+              src="assets/brands/nostress.webp"
+              alt="No Stress"
+              loading="lazy"
+              width="420"
+              height="190"
+            />
+            <img
+              src="assets/brands/ocb.webp"
+              alt="OCB"
+              loading="lazy"
+              width="391"
+              height="220"
+            />
+            <img
+              src="assets/brands/vamp.webp"
+              alt="Vamp"
+              loading="lazy"
+              width="279"
+              height="181"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq-section" id="preguntas">
+        <div class="container faq-grid">
+          <div class="faq-heading" data-reveal>
+            <p class="eyebrow eyebrow-dark"><span></span> Antes de consultar</p>
+            <h2>Preguntas frecuentes</h2>
+            <p>
+              Información clara para que sepas cómo trabajamos antes de
+              escribirnos.
+            </p>
+          </div>
+          <div class="faq-list" data-reveal>
+            <details>
+              <summary>¿Cómo consulto precios y disponibilidad?</summary>
+              <p>
+                El catálogo es informativo. Confirmamos stock, precio y
+                condiciones vigentes por Instagram antes de coordinar cualquier
+                compra.
+              </p>
+            </details>
+            <details>
+              <summary>¿Hacen envíos?</summary>
+              <p>
+                Sí, realizamos envíos a todo el país. El costo, plazo estimado y
+                modalidad se informan antes de confirmar el pedido.
+              </p>
+            </details>
+            <details>
+              <summary>¿Qué medios de pago aceptan?</summary>
+              <p>
+                Las opciones disponibles y posibles promociones se confirman
+                durante la consulta, antes de avanzar.
+              </p>
+            </details>
+            <details>
+              <summary>¿Pueden ayudarme a elegir productos?</summary>
+              <p>
+                Sí. Contanos el espacio, el objetivo y el presupuesto para
+                recibir una recomendación personalizada.
+              </p>
+            </details>
+            <details>
+              <summary>
+                ¿El asesoramiento REPROCANN garantiza la aprobación?
+              </summary>
+              <p>
+                No. Brindamos orientación, pero la evaluación y autorización
+                dependen exclusivamente del Ministerio de Salud.
+              </p>
+            </details>
           </div>
         </div>
       </section>
@@ -456,8 +658,9 @@
           </div>
           <div class="contact-copy">
             <p>
-              Contanos qué estás armando y te ayudamos a encontrar la mejor opción
-              para tu espacio y presupuesto.
+              Contanos qué estás armando y te ayudamos a encontrar la mejor
+              opción para tu espacio y presupuesto. Atendemos online y
+              coordinamos envíos dentro de Argentina.
             </p>
             <div class="contact-actions">
               <a
@@ -484,7 +687,7 @@
 
     <footer class="site-footer">
       <div class="container footer-grid">
-        <a class="brand brand-footer" href="#inicio" aria-label="New Life, inicio">
+        <a class="brand brand-footer" href="/" aria-label="New Life, inicio">
           <img src="assets/logo.png" alt="" width="68" height="68" />
           <span>
             <strong>NEW LIFE</strong>
@@ -494,9 +697,10 @@
         <div class="footer-links">
           <div>
             <p>Navegación</p>
-            <a href="#productos">Productos</a>
-            <a href="#reprocann">REPROCANN</a>
-            <a href="#nosotros">Nosotros</a>
+            <a href="/#productos">Productos</a>
+            <a href="/#reprocann">REPROCANN</a>
+            <a href="/#nosotros">Nosotros</a>
+            <a href="/#preguntas">Preguntas frecuentes</a>
           </div>
           <div>
             <p>Contacto</p>
@@ -507,6 +711,22 @@
             >
               Instagram
             </a>
+            <a
+              href="https://wa.me/5491126828373?text=Hola%20New%20Life%2C%20quiero%20hacer%20una%20consulta."
+              target="_blank"
+              rel="noreferrer"
+              >WhatsApp</a
+            >
+            <span>Atención online · Argentina</span>
+          </div>
+          <div>
+            <p>Información</p>
+            <a href="/privacidad.html">Privacidad y cookies</a>
+            <a href="/terminos.html">Términos y condiciones</a>
+            <a href="/envios-cambios.html">Envíos, cambios y devoluciones</a>
+            <button type="button" data-open-cookie-settings>
+              Preferencias de cookies
+            </button>
           </div>
         </div>
       </div>
@@ -514,9 +734,19 @@
         <p>© <span data-year></span> New Life Grow &amp; Garden.</p>
       </div>
       <div class="container creator-credit">
-        <span>Sitio creado por</span>
-        <a href="https://kova-link.netlify.app/" target="_blank" rel="noreferrer">
-          Kova-Link <span aria-hidden="true">↗</span>
+        <span class="creator-label">Diseño y desarrollo web</span>
+        <a
+          href="https://kova-link.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Visitar el sitio de Kova-Link, creador de esta página"
+        >
+          <span class="creator-mark" aria-hidden="true">K</span>
+          <span class="creator-copy">
+            <strong>Kova-Link</strong>
+            <small>Conocé quién creó este sitio</small>
+          </span>
+          <span class="creator-arrow" aria-hidden="true">↗</span>
         </a>
       </div>
     </footer>
@@ -541,18 +771,157 @@
           <p class="eyebrow eyebrow-dark"><span></span> Cannabian</p>
           <h2>Catálogo completo</h2>
         </div>
-        <button type="button" aria-label="Cerrar catálogo" data-close-catalog>×</button>
+        <button type="button" aria-label="Cerrar catálogo" data-close-catalog>
+          ×
+        </button>
       </div>
       <div class="catalog-gallery">
-        <img src="assets/catalog/1.webp" alt="Catálogo Cannabian, página 1" />
-        <img src="assets/catalog/2.webp" alt="Catálogo Cannabian, página 2" />
-        <img src="assets/catalog/3.webp" alt="Catálogo Cannabian, página 3" />
-        <img src="assets/catalog/4.webp" alt="Catálogo Cannabian, página 4" />
-        <img src="assets/catalog/5.webp" alt="Catálogo Cannabian, página 5" />
-        <img src="assets/catalog/6.webp" alt="Catálogo Cannabian, página 6" />
-        <img src="assets/catalog/7.webp" alt="Catálogo Cannabian, página 7" />
-        <img src="assets/catalog/8.webp" alt="Catálogo Cannabian, página 8" />
+        <img
+          src="assets/catalog/1.webp"
+          alt="Catálogo Cannabian, página 1"
+          width="900"
+          height="900"
+        />
+        <img
+          src="assets/catalog/2.webp"
+          alt="Catálogo Cannabian, página 2"
+          width="900"
+          height="900"
+        />
+        <img
+          src="assets/catalog/3.webp"
+          alt="Catálogo Cannabian, página 3"
+          width="900"
+          height="900"
+        />
+        <img
+          src="assets/catalog/4.webp"
+          alt="Catálogo Cannabian, página 4"
+          width="900"
+          height="900"
+        />
+        <img
+          src="assets/catalog/5.webp"
+          alt="Catálogo Cannabian, página 5"
+          width="900"
+          height="900"
+        />
+        <img
+          src="assets/catalog/6.webp"
+          alt="Catálogo Cannabian, página 6"
+          width="720"
+          height="720"
+        />
+        <img
+          src="assets/catalog/7.webp"
+          alt="Catálogo Cannabian, página 7"
+          width="720"
+          height="720"
+        />
+        <img
+          src="assets/catalog/8.webp"
+          alt="Catálogo Cannabian, página 8"
+          width="720"
+          height="720"
+        />
       </div>
+    </dialog>
+
+    <aside
+      class="cookie-banner"
+      data-cookie-banner
+      hidden
+      aria-labelledby="cookie-title"
+    >
+      <div>
+        <p class="cookie-kicker">Tu privacidad</p>
+        <h2 id="cookie-title">Elegí qué cookies aceptar</h2>
+        <p>
+          Las necesarias mantienen el sitio funcionando. Con tu permiso,
+          podremos usar medición de Google para entender visitas y mejorar la
+          experiencia.
+          <a href="/privacidad.html">Ver política de privacidad</a>.
+        </p>
+      </div>
+      <div class="cookie-actions">
+        <button class="button cookie-reject" type="button" data-cookie-reject>
+          Rechazar opcionales
+        </button>
+        <button
+          class="button cookie-configure"
+          type="button"
+          data-cookie-configure
+        >
+          Configurar
+        </button>
+        <button class="button button-primary" type="button" data-cookie-accept>
+          Aceptar todas
+        </button>
+      </div>
+    </aside>
+
+    <dialog
+      class="cookie-dialog"
+      data-cookie-dialog
+      aria-labelledby="cookie-settings-title"
+    >
+      <form method="dialog" data-cookie-form>
+        <div class="cookie-dialog-heading">
+          <div>
+            <p class="cookie-kicker">Preferencias de cookies</p>
+            <h2 id="cookie-settings-title">Controlá tus datos</h2>
+          </div>
+          <button
+            class="cookie-dialog-close"
+            type="button"
+            data-close-cookie-settings
+            aria-label="Cerrar preferencias"
+          >
+            ×
+          </button>
+        </div>
+        <p>
+          Podés cambiar esta elección en cualquier momento desde el pie de
+          página.
+        </p>
+        <div class="cookie-option">
+          <span
+            ><strong>Necesarias</strong
+            ><small
+              >Seguridad, navegación y recuerdo de tus preferencias.</small
+            ></span
+          >
+          <span class="always-on">Siempre activas</span>
+        </div>
+        <label class="cookie-option">
+          <span
+            ><strong>Analítica</strong
+            ><small
+              >Permite medir visitas y uso del sitio mediante Google Analytics,
+              si se configura.</small
+            ></span
+          >
+          <input type="checkbox" name="analytics" />
+        </label>
+        <label class="cookie-option">
+          <span
+            ><strong>Marketing</strong
+            ><small
+              >Permite medir campañas publicitarias, si se configuran en el
+              futuro.</small
+            ></span
+          >
+          <input type="checkbox" name="marketing" />
+        </label>
+        <div class="cookie-dialog-actions">
+          <button class="button cookie-reject" type="button" data-cookie-reject>
+            Rechazar opcionales
+          </button>
+          <button class="button button-primary" value="save" type="submit">
+            Guardar preferencias
+          </button>
+        </div>
+      </form>
     </dialog>
   </body>
 </html>
