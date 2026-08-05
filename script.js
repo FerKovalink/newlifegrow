@@ -74,13 +74,19 @@ const setHeaderState = () => {
 const closeMenu = () => {
   menu?.classList.remove("open");
   menuToggle?.setAttribute("aria-expanded", "false");
+  menuToggle?.setAttribute("aria-label", "Abrir menú");
   document.body.classList.remove("menu-open");
 };
 
 menuToggle?.addEventListener("click", () => {
   const isOpen = menu?.classList.toggle("open");
   menuToggle.setAttribute("aria-expanded", String(Boolean(isOpen)));
+  menuToggle.setAttribute("aria-label", isOpen ? "Cerrar menú" : "Abrir menú");
   document.body.classList.toggle("menu-open", Boolean(isOpen));
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && menu?.classList.contains("open")) closeMenu();
 });
 
 menu?.querySelectorAll("a").forEach((link) => {
