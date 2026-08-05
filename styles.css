@@ -1711,11 +1711,19 @@ h3 {
   }
 
   .menu-toggle {
-    display: grid;
+    display: flex;
     flex: 0 0 2.8rem;
-    place-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
     position: relative;
     z-index: 3;
+  }
+
+  .menu-toggle span {
+    width: 1.25rem;
+    margin: 0;
   }
 
   .menu-toggle[aria-expanded="true"] span:nth-child(1) {
