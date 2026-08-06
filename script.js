@@ -151,7 +151,7 @@ document.querySelectorAll('a[href*="instagram.com"]').forEach((link) => {
   link.addEventListener("click", () => pushEvent("click_instagram", { link_url: link.href }));
 });
 
-document.querySelectorAll('a[href="https://kova-link.netlify.app/"]').forEach((link) => {
+document.querySelectorAll('a[href="https://kovalink.com.ar/"]').forEach((link) => {
   link.addEventListener("click", () => pushEvent("click_creator", { creator_name: "Kova-Link", link_url: link.href }));
 });
 
